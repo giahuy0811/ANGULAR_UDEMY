@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ANGULAR_UDEMY';
+
+  log = []
+
+  onToggleDetails(){
+    this.log.push(new Date())
+  }
+
 }
